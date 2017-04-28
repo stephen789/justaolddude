@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{EFB23D20-A465-3E9F-BF3D-EBBA98C78D12}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>basic_plugin_example</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\example_basic\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">basic_plugin_example.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">basic_plugin_example</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\example_basic\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">basic_plugin_example.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">basic_plugin_example</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\example_basic\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">basic_plugin_example.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">basic_plugin_example</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\llplugin;C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\base_basic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;_SECURE_SCL=0;NDEBUG;LL_RELEASE_WITH_DEBUG_INFO=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR="RelWithDebInfo";basic_plugin_example_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;_SECURE_SCL=0;NDEBUG;LL_RELEASE_WITH_DEBUG_INFO=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR=\"RelWithDebInfo\";basic_plugin_example_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\llplugin;C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\base_basic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\llplugin;C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\base_basic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>..\..\llplugin\RelWithDebInfo\llplugin.lib;..\..\llcommon\RelWithDebInfo\llcommon.lib;..\base_basic\RelWithDebInfo\basic_plugin_base.lib;exception_handler.lib;crash_generation_client.lib;crash_generation_server.lib;common.lib;..\..\packages\lib\release\apriconv-1.lib;..\..\packages\lib\release\aprutil-1.lib;..\..\packages\lib\release\apriconv-1.lib;..\..\packages\lib\release\aprutil-1.lib;..\..\packages\lib\release\apr-1.lib;Rpcrt4.lib;expat.lib;zlib.lib;advapi32.lib;shell32.lib;ole32.lib;ws2_32.lib;mswsock.lib;psapi.lib;winmm.lib;netapi32.lib;wldap32.lib;gdi32.lib;user32.lib;dbghelp.lib;libboost_context-mt.lib;libboost_regex-mt.lib;libboost_thread-mt.lib;libboost_system-mt.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/stephen/Desktop/singularity/singularity/build-vc140/packages/lib;C:/Users/stephen/Desktop/singularity/singularity/build-vc140/packages/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/stephen/Desktop/singularity/singularity/build-vc140/plugins/example_basic/RelWithDebInfo/basic_plugin_example.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/stephen/Desktop/singularity/singularity/build-vc140/plugins/example_basic/RelWithDebInfo/basic_plugin_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /Zo /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\llplugin;C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\base_basic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;LL_RELEASE_FOR_DOWNLOAD=1;_SECURE_SCL=0;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR="Release";basic_plugin_example_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;LL_RELEASE_FOR_DOWNLOAD=1;_SECURE_SCL=0;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR=\"Release\";basic_plugin_example_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\llplugin;C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\base_basic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\llplugin;C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\base_basic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>..\..\llplugin\Release\llplugin.lib;..\..\llcommon\Release\llcommon.lib;..\base_basic\Release\basic_plugin_base.lib;exception_handler.lib;crash_generation_client.lib;crash_generation_server.lib;common.lib;..\..\packages\lib\release\apriconv-1.lib;..\..\packages\lib\release\aprutil-1.lib;..\..\packages\lib\release\apriconv-1.lib;..\..\packages\lib\release\aprutil-1.lib;..\..\packages\lib\release\apr-1.lib;Rpcrt4.lib;expat.lib;zlib.lib;advapi32.lib;shell32.lib;ole32.lib;ws2_32.lib;mswsock.lib;psapi.lib;winmm.lib;netapi32.lib;wldap32.lib;gdi32.lib;user32.lib;dbghelp.lib;libboost_context-mt.lib;libboost_regex-mt.lib;libboost_thread-mt.lib;libboost_system-mt.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/stephen/Desktop/singularity/singularity/build-vc140/packages/lib;C:/Users/stephen/Desktop/singularity/singularity/build-vc140/packages/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/stephen/Desktop/singularity/singularity/build-vc140/plugins/example_basic/Release/basic_plugin_example.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/stephen/Desktop/singularity/singularity/build-vc140/plugins/example_basic/Release/basic_plugin_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\llplugin;C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\base_basic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;LL_DEBUG=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR="Debug";basic_plugin_example_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LL_DEBUG=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR=\"Debug\";basic_plugin_example_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\llplugin;C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\base_basic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\llplugin;C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\base_basic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+      <AdditionalDependencies>..\..\llplugin\Debug\llplugin.lib;..\..\llcommon\Debug\llcommon.lib;..\base_basic\Debug\basic_plugin_base.lib;exception_handler.lib;crash_generation_client.lib;crash_generation_server.lib;common.lib;..\..\packages\lib\debug\aprutil-1.lib;..\..\packages\lib\debug\apriconv-1.lib;..\..\packages\lib\debug\apr-1.lib;Rpcrt4.lib;expat.lib;zlibd.lib;advapi32.lib;shell32.lib;ole32.lib;ws2_32.lib;mswsock.lib;psapi.lib;winmm.lib;netapi32.lib;wldap32.lib;gdi32.lib;user32.lib;dbghelp.lib;libboost_context-mt-gd.lib;libboost_regex-mt-gd.lib;libboost_thread-mt-gd.lib;libboost_system-mt-gd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/stephen/Desktop/singularity/singularity/build-vc140/packages/lib;C:/Users/stephen/Desktop/singularity/singularity/build-vc140/packages/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/stephen/Desktop/singularity/singularity/build-vc140/plugins/example_basic/Debug/basic_plugin_example.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/stephen/Desktop/singularity/singularity/build-vc140/plugins/example_basic/Debug/basic_plugin_example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\example_basic\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/plugins/example_basic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/plugins/example_basic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/plugins/example_basic/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\example_basic\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLCommon.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\APR.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ZLIB.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLPlugin.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PluginAPI.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\BasicPluginBase.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\example_basic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\example_basic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/plugins/example_basic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/plugins/example_basic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/plugins/example_basic/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\example_basic\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLCommon.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\APR.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ZLIB.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLPlugin.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PluginAPI.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\BasicPluginBase.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\example_basic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\example_basic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/plugins/example_basic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/plugins/example_basic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/plugins/example_basic/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\example_basic\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLCommon.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\APR.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ZLIB.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLPlugin.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PluginAPI.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\BasicPluginBase.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\example_basic\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\example_basic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\plugins\example_basic\basic_plugin_example.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\ZERO_CHECK.vcxproj">
+      <Project>498626B5-1082-3613-A2C9-E5D73A97D665</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\base_basic\basic_plugin_base.vcxproj">
+      <Project>17CBBD1C-272E-3232-A5AC-577197EFA5AF</Project>
+      <Name>basic_plugin_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llcommon\llcommon.vcxproj">
+      <Project>3CAB0194-3A13-396D-95B8-C964E9EB7E33</Project>
+      <Name>llcommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llplugin\llplugin.vcxproj">
+      <Project>EF70D24E-9D29-386F-81CC-3D51FCBD1870</Project>
+      <Name>llplugin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

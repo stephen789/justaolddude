@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llcubemap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llfontbitmapcache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llfontfreetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llfontgl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llfontregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llgl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llgldbg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llglslshader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llgltexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llimagegl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llpostprocess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llrender.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llrender2dutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llrendersphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llrendertarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llshadermgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\lltexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\lluiimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llvertexbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llcubemap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llfontbitmapcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llfontfreetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llfontgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llfontregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llgldbg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llglheaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llglslshader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llglstates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llgltexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llgltypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llimagegl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llpostprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llrender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llrender2dutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llrendersphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llshadermgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\lltexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\lluiimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\llvertexbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llrender\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6C55EE4A-F815-33E5-B1C2-6D539E7E9973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C9AA8696-8BDF-3945-A7D3-4C616EDE131A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

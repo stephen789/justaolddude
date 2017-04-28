@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llbbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llbboxlocal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llcalc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llcalcparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llcamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llcoordframe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llmatrix3a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llmodularmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llperlin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llquaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llrect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llsdutil_math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llsphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llvector4a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llvolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llvolumemgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llvolumeoctree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\m3math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\m4math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\raytrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v2math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v3color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v3dmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v3math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v4color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v4coloru.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v4math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\xform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\coordframe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llbbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llbboxlocal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llcalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llcalcparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llcamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llcoord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llcoordframe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llinterp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llmatrix3a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llmatrix3a.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llmodularmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\lloctree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llperlin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llplane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llquantize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llquaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llquaternion2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llquaternion2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llsdutil_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llsimdmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llsimdtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llsimdtypes.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llsphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\lltreenode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llvector4a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llvector4a.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llvector4logical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llvolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llvolumemgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\llvolumeoctree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\m3math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\m4math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\raytrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v2math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v3color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v3dmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v3math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v4color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v4coloru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\v4math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\xform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llmath\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6C55EE4A-F815-33E5-B1C2-6D539E7E9973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C9AA8696-8BDF-3945-A7D3-4C616EDE131A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

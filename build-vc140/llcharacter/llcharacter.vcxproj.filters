@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llanimationstates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llbvhloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llcharacter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\lleditingmotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llgesture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llhandmotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llheadrotmotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\lljoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\lljointsolverrp3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llkeyframefallmotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llkeyframemotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llkeyframestandmotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llkeyframewalkmotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llmotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llmotioncontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llmultigesture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llpose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llstatemachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\lltargetingmotion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llvisualparam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llanimationstates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llbvhconsts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llbvhloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llcharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\lleditingmotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llgesture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llhandmotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llheadrotmotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\lljoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\lljointsolverrp3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\lljointstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llkeyframefallmotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llkeyframemotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llkeyframestandmotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llkeyframewalkmotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llmotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llmotioncontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llmultigesture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llpose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llstatemachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\lltargetingmotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\llvisualparam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcharacter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6C55EE4A-F815-33E5-B1C2-6D539E7E9973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C9AA8696-8BDF-3945-A7D3-4C616EDE131A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

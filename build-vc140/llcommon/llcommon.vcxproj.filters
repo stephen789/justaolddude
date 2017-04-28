@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aialert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aifile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aiframetimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aisyncclient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aithreadid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\imageids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\indra_constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llallocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llallocator_heap_profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llapr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llaprpool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llassettype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llbase32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llbase64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcallbacklist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcommonutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcoros.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcrc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcriticaldamp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcursortypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lldate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lldependencies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lldictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llerrorthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventcoro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventdispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llevents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventtimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llfasttimer_class.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llfindlocale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llfixedbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llformat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llframetimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llheartbeat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llinitparam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llinstancetracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llliveappconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lllivefile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lllog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmd5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmemorystream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmetrics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmortician.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lloptioninterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llpredicate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llprocesslauncher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llprocessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llptrto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llqueuedthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llrand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llrefcount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llrun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsdparam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsdserialize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsdserialize_xml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsdutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsecondlifeurls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstacktrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstreamtools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstringtable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llthreadsafequeue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lltimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lluri.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lluuid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llworkerthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\metaclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\metaproperty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\reflective.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\timing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\u64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug\debug.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llscopedvolatileaprpool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug\cwdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug\sys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug\debug_ostream_operators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aialert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aifile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aiframetimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\airecursive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aisyncclient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aithreadid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\aithreadsafe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\bitpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\ctype_workaround.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\fix_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\imageids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\indra_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\linden_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llaccountingcost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llalignedarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llagentconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llallocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llallocator_heap_profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llapp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llapr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llaprpool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llassettype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llassoclist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llatomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llavatarconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llbase32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llbase64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llboost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcallbacklist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llchat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llclickaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcommonutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcoros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcriticaldamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llcursortypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lldate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lldefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lldependencies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lldepthstack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lldictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llendianswizzle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llerrorcontrol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llerrorthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llevent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventcoro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventdispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventemitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llevents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lleventtimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llextendedstatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llfasttimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llfasttimer_class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llfindlocale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llfixedbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llformat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llframetimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llhandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llheartbeat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llhttpstatuscodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llindexedvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llinitparam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llinstancetracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llkeythrottle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lllinkedqueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llliveappconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lllivefile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lllocalidhashmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lllog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lllslconstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmd5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmemorystream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmetrics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llmortician.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llnametable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lloptioninterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llpointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llpredicate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llpreprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llpriqueuemap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llprocesslauncher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llprocessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llptrto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llqueuedthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llrand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llrefcount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llrun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsafehandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsdparam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsdserialize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsdserialize_xml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsdutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsecondlifeurls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsimplehash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llskiplist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llskipmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsortedvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstacktrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstatenums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstreamtools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstrider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstringtable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llstaticstringtable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llsys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llthreadsafequeue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lltimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lltreeiterators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llunits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llunittype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lltypeinfolookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lluri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\lluuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llwin32headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llwin32headerslean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\llworkerthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\metaclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\metaclasst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\metaproperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\metapropertyt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\reflective.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\reflectivet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\stdenums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\stdtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\stringize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\timing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\u64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6C55EE4A-F815-33E5-B1C2-6D539E7E9973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C9AA8696-8BDF-3945-A7D3-4C616EDE131A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

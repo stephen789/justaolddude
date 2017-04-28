@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D976EEF4-09FD-356C-A207-7EF44DF5C0EE}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>cmake</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\cmake\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cmake.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cmake</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\cmake\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cmake.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cmake</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\cmake\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cmake.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cmake</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;_SECURE_SCL=0;NDEBUG;LL_RELEASE_WITH_DEBUG_INFO=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;_SECURE_SCL=0;NDEBUG;LL_RELEASE_WITH_DEBUG_INFO=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /Zo /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;LL_RELEASE_FOR_DOWNLOAD=1;_SECURE_SCL=0;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;LL_RELEASE_FOR_DOWNLOAD=1;_SECURE_SCL=0;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;LL_DEBUG=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LL_DEBUG=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/cmake/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/cmake/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/cmake/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\cmake\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\AIStateMachine.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\APR.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Audio.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\BasicPluginBase.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\BuildVersion.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CARes.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CEFPlugin.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CMakeCopyIfDifferent.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CURL.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Colladadom.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ConfigurePkgConfig.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Copy3rdPartyLibs.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Cwdebug.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\DBusGlib.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\DeploySharedLibs.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ExamplePlugin.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FMODSTUDIO.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAPR.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindCARes.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindColladadom.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindGLOD.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindGoogleBreakpad.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindGooglePerfTools.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindHunSpell.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindJsonCpp.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindNDOF.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindOpenJPEG.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindTut.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindXmlRpcEpi.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FreeType.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GLOD.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GStreamer010Plugin.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Glui.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Glut.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GoogleBreakpad.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Hunspell.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\JPEG.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\JsonCpp.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLAddBuildTest.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLAppearance.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLAudio.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLCharacter.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLCommon.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLImage.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLImageJ2COJ.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLInventory.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLMath.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLMessage.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLPhysicsExtensions.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLPlugin.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLPrimitive.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLSharedLibs.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLRender.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLUI.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLVFS.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLWindow.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLXML.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LScript.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\MediaPluginBase.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\NDOF.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\NVAPI.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OPENAL.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenGL.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenJPEG.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenSSL.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PNG.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PluginAPI.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PulseAudio.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Python.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\QuickTimePlugin.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\RunBuildTest.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\StateMachine.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\TemplateCheck.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Tut.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\UI.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\UnixInstall.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ViewerMiscLibs.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\WinManifest.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\XmlRpcEpi.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ZLIB.cmake" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\CMakeLists.txt" />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\cmake_dummy.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\ZERO_CHECK.vcxproj">
+      <Project>498626B5-1082-3613-A2C9-E5D73A97D665</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

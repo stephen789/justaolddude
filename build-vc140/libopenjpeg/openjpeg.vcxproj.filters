@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\bio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\cidx_manager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\cio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\dwt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\j2k.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\j2k_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\jp2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\jpt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\mct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\mqc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\openjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\phix_manager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\pi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\ppix_manager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\raw.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\t1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\t2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\tcd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\tgt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\thix_manager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\tpix_manager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\bio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\cidx_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\cio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\dwt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\fix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\indexbox_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\int.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\j2k.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\j2k_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\jp2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\jpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\mct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\mqc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\openjpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\opj_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\opj_includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\opj_malloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\pi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\t1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\t1_luts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\t2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\tcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\tgt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6C55EE4A-F815-33E5-B1C2-6D539E7E9973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C9AA8696-8BDF-3945-A7D3-4C616EDE131A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

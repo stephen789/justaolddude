@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{696B7CD4-2145-36BD-AA46-F52000F5E96B}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>openjpeg</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\libopenjpeg\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openjpeg.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">openjpeg</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\libopenjpeg\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openjpeg.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">openjpeg</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\libopenjpeg\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openjpeg.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">openjpeg</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;_CRT_SECURE_NO_WARNINGS;OPJ_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;_CRT_SECURE_NO_WARNINGS;OPJ_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;LL_RELEASE_FOR_DOWNLOAD=1;_SECURE_SCL=0;NDEBUG;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;_CRT_SECURE_NO_WARNINGS;OPJ_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;LL_RELEASE_FOR_DOWNLOAD=1;_SECURE_SCL=0;NDEBUG;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;_CRT_SECURE_NO_WARNINGS;OPJ_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;_CRT_SECURE_NO_WARNINGS;OPJ_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;_CRT_SECURE_NO_WARNINGS;OPJ_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/libopenjpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/libopenjpeg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/libopenjpeg/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\libopenjpeg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/libopenjpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/libopenjpeg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/libopenjpeg/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\libopenjpeg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/libopenjpeg/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/libopenjpeg/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/libopenjpeg/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\libopenjpeg\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\bio.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\cidx_manager.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\cio.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\dwt.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\event.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\fix.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\image.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\indexbox_manager.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\int.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\j2k.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\j2k_lib.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\jp2.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\jpt.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\mct.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\mqc.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\openjpeg.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\opj_config.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\opj_includes.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\opj_malloc.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\pi.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\raw.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\t1.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\t1_luts.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\t2.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\tcd.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\tgt.h" />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\bio.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\cidx_manager.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\cio.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\dwt.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\event.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\image.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\j2k.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\j2k_lib.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\jp2.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\jpt.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\mct.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\mqc.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\openjpeg.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\phix_manager.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\pi.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\ppix_manager.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\raw.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\t1.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\t2.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\tcd.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\tgt.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\thix_manager.c"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\libopenjpeg\tpix_manager.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\ZERO_CHECK.vcxproj">
+      <Project>498626B5-1082-3613-A2C9-E5D73A97D665</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{4DC70089-059B-3D7C-A764-B8D094DB7A09}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCXXCompiler.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\BuildVersion.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCXXCompiler.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\BuildVersion.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystem.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXCompiler.cmake.in;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.0-rc4\CMakeCXXCompiler.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\BuildVersion.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\ZERO_CHECK.vcxproj">
+      <Project>498626B5-1082-3613-A2C9-E5D73A97D665</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llplugin\slplugin\SLPlugin.vcxproj">
+      <Project>5AB956A2-2763-3B7B-89E0-10ECF104A54D</Project>
+      <Name>SLPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\aistatemachine\aistatemachine.vcxproj">
+      <Project>C5985FD3-906B-3C93-9C80-A6B46E1BB18D</Project>
+      <Name>aistatemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\base_basic\basic_plugin_base.vcxproj">
+      <Project>17CBBD1C-272E-3232-A5AC-577197EFA5AF</Project>
+      <Name>basic_plugin_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\example_basic\basic_plugin_example.vcxproj">
+      <Project>EFB23D20-A465-3E9F-BF3D-EBBA98C78D12</Project>
+      <Name>basic_plugin_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\filepicker\basic_plugin_filepicker.vcxproj">
+      <Project>394CF5F8-4D3D-3D84-8FB5-474A7B6FDAF1</Project>
+      <Name>basic_plugin_filepicker</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\cmake\cmake.vcxproj">
+      <Project>D976EEF4-09FD-356C-A207-7EF44DF5C0EE</Project>
+      <Name>cmake</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\newview\copy_w_viewer_manifest.vcxproj">
+      <Project>BB450062-688D-3262-9AB8-B67D40EBCC7D</Project>
+      <Name>copy_w_viewer_manifest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\copy_win_scripts\copy_win_scripts.vcxproj">
+      <Project>C7525F22-622C-30BB-BA8A-1B03745EB38E</Project>
+      <Name>copy_win_scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\newview\generate_viewer_version.vcxproj">
+      <Project>36E48A46-F2B0-3DC7-92A5-EB63218E1EB1</Project>
+      <Name>generate_viewer_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\libhacd\hacd.vcxproj">
+      <Project>3068D941-1DF5-33FB-A155-5ECCFD5F9F5D</Project>
+      <Name>hacd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llappearance\llappearance.vcxproj">
+      <Project>BCA06B9D-3FE4-312E-9D26-631C3204E8F1</Project>
+      <Name>llappearance</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llaudio\llaudio.vcxproj">
+      <Project>084ED2D7-E3C7-3709-98DF-14CCB33FC47C</Project>
+      <Name>llaudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llcharacter\llcharacter.vcxproj">
+      <Project>DFB14465-681C-38C5-A307-42C2072E331F</Project>
+      <Name>llcharacter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llcommon\llcommon.vcxproj">
+      <Project>3CAB0194-3A13-396D-95B8-C964E9EB7E33</Project>
+      <Name>llcommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llimage\llimage.vcxproj">
+      <Project>C313D124-7830-3AED-B19C-D996ABC654C3</Project>
+      <Name>llimage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llimagej2coj\llimagej2coj.vcxproj">
+      <Project>EF9488B4-FFD0-3990-AE5C-EEC5D58DBC78</Project>
+      <Name>llimagej2coj</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llinventory\llinventory.vcxproj">
+      <Project>D92978C7-9594-3F1A-A611-843FFB793971</Project>
+      <Name>llinventory</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llmath\llmath.vcxproj">
+      <Project>F30206FF-07BA-340E-A89D-77E1081E7776</Project>
+      <Name>llmath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llmessage\llmessage.vcxproj">
+      <Project>A95CCC9C-2B8E-31D0-9B8A-54A37674B68A</Project>
+      <Name>llmessage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llplugin\llplugin.vcxproj">
+      <Project>EF70D24E-9D29-386F-81CC-3D51FCBD1870</Project>
+      <Name>llplugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llprimitive\llprimitive.vcxproj">
+      <Project>E4B7F6E2-54C7-302A-A72A-2CE7F19553A4</Project>
+      <Name>llprimitive</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llrender\llrender.vcxproj">
+      <Project>F4551669-005F-37B7-95BB-7DE97E529F3F</Project>
+      <Name>llrender</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llui\llui.vcxproj">
+      <Project>9AEA6E53-DE2D-3321-BA4D-1E552C87A6C6</Project>
+      <Name>llui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llvfs\llvfs.vcxproj">
+      <Project>9ECB5770-C02A-3D31-9863-982EE7761033</Project>
+      <Name>llvfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llwindow\llwindow.vcxproj">
+      <Project>83F727EB-4338-3BBC-93E9-03C0BA407A08</Project>
+      <Name>llwindow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llxml\llxml.vcxproj">
+      <Project>FF5C3BFF-CE11-3BD2-A7F6-87925421472F</Project>
+      <Name>llxml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\base_media\media_plugin_base.vcxproj">
+      <Project>4DE8F48A-F2F7-3172-81FD-4DD7F4237807</Project>
+      <Name>media_plugin_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\cef\media_plugin_cef.vcxproj">
+      <Project>BF4AB994-6FCF-309F-A180-53F36E6F4EB9</Project>
+      <Name>media_plugin_cef</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\example_media\media_plugin_example.vcxproj">
+      <Project>D39A5151-A3E2-387F-ABC8-09C42BD66BB8</Project>
+      <Name>media_plugin_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\plugins\quicktime\media_plugin_quicktime.vcxproj">
+      <Project>05C4C436-207E-312D-93D1-3E7E5414F54D</Project>
+      <Name>media_plugin_quicktime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\libpathing\nd_Pathing.vcxproj">
+      <Project>60409062-7874-39CA-B22B-FD4FE5C80E5D</Project>
+      <Name>nd_Pathing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\libndhacd\nd_hacdConvexDecomposition.vcxproj">
+      <Project>41568D44-4CA4-3CEB-822C-A4A477D182D4</Project>
+      <Name>nd_hacdConvexDecomposition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\libopenjpeg\openjpeg.vcxproj">
+      <Project>696B7CD4-2145-36BD-AA46-F52000F5E96B</Project>
+      <Name>openjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\newview\singularity-bin.vcxproj">
+      <Project>0F7C17C7-E6BA-35C6-8311-69E465BB066D</Project>
+      <Name>singularity-bin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llcommon\stage_third_party_libs.vcxproj">
+      <Project>34807EEA-4491-3729-99DE-965BE8F0FBDB</Project>
+      <Name>stage_third_party_libs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\newview\statemachine\statemachine.vcxproj">
+      <Project>65B95793-0681-3CFF-BF80-5E5EDEB74A8A</Project>
+      <Name>statemachine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

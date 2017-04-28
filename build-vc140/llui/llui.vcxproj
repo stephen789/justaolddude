@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9AEA6E53-DE2D-3321-BA4D-1E552C87A6C6}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>llui</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llui\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">llui.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">llui</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llui\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">llui.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">llui</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llui\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">llui.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">llui</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llimage;C:\Users\stephen\Desktop\singularity\singularity\indra\llmath;C:\Users\stephen\Desktop\singularity\singularity\indra\llmessage;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\ares;C:\Users\stephen\Desktop\singularity\singularity\indra\aistatemachine;C:\Users\stephen\Desktop\singularity\singularity\indra\llrender;\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llwindow;C:\Users\stephen\Desktop\singularity\singularity\indra\llvfs;C:\Users\stephen\Desktop\singularity\singularity\indra\llxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;_SECURE_SCL=0;NDEBUG;LL_RELEASE_WITH_DEBUG_INFO=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CARES_STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;_SECURE_SCL=0;NDEBUG;LL_RELEASE_WITH_DEBUG_INFO=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CARES_STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llimage;C:\Users\stephen\Desktop\singularity\singularity\indra\llmath;C:\Users\stephen\Desktop\singularity\singularity\indra\llmessage;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\ares;C:\Users\stephen\Desktop\singularity\singularity\indra\aistatemachine;C:\Users\stephen\Desktop\singularity\singularity\indra\llrender;\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llwindow;C:\Users\stephen\Desktop\singularity\singularity\indra\llvfs;C:\Users\stephen\Desktop\singularity\singularity\indra\llxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llimage;C:\Users\stephen\Desktop\singularity\singularity\indra\llmath;C:\Users\stephen\Desktop\singularity\singularity\indra\llmessage;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\ares;C:\Users\stephen\Desktop\singularity\singularity\indra\aistatemachine;C:\Users\stephen\Desktop\singularity\singularity\indra\llrender;\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llwindow;C:\Users\stephen\Desktop\singularity\singularity\indra\llvfs;C:\Users\stephen\Desktop\singularity\singularity\indra\llxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /Zo /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llimage;C:\Users\stephen\Desktop\singularity\singularity\indra\llmath;C:\Users\stephen\Desktop\singularity\singularity\indra\llmessage;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\ares;C:\Users\stephen\Desktop\singularity\singularity\indra\aistatemachine;C:\Users\stephen\Desktop\singularity\singularity\indra\llrender;\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llwindow;C:\Users\stephen\Desktop\singularity\singularity\indra\llvfs;C:\Users\stephen\Desktop\singularity\singularity\indra\llxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;LL_RELEASE_FOR_DOWNLOAD=1;_SECURE_SCL=0;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CARES_STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LL_RELEASE=1;LL_RELEASE_FOR_DOWNLOAD=1;_SECURE_SCL=0;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CARES_STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llimage;C:\Users\stephen\Desktop\singularity\singularity\indra\llmath;C:\Users\stephen\Desktop\singularity\singularity\indra\llmessage;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\ares;C:\Users\stephen\Desktop\singularity\singularity\indra\aistatemachine;C:\Users\stephen\Desktop\singularity\singularity\indra\llrender;\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llwindow;C:\Users\stephen\Desktop\singularity\singularity\indra\llvfs;C:\Users\stephen\Desktop\singularity\singularity\indra\llxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llimage;C:\Users\stephen\Desktop\singularity\singularity\indra\llmath;C:\Users\stephen\Desktop\singularity\singularity\indra\llmessage;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\ares;C:\Users\stephen\Desktop\singularity\singularity\indra\aistatemachine;C:\Users\stephen\Desktop\singularity\singularity\indra\llrender;\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llwindow;C:\Users\stephen\Desktop\singularity\singularity\indra\llvfs;C:\Users\stephen\Desktop\singularity\singularity\indra\llxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /c /Zc:rvalueCast /Zm140</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llimage;C:\Users\stephen\Desktop\singularity\singularity\indra\llmath;C:\Users\stephen\Desktop\singularity\singularity\indra\llmessage;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\ares;C:\Users\stephen\Desktop\singularity\singularity\indra\aistatemachine;C:\Users\stephen\Desktop\singularity\singularity\indra\llrender;\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llwindow;C:\Users\stephen\Desktop\singularity\singularity\indra\llvfs;C:\Users\stephen\Desktop\singularity\singularity\indra\llxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4244</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;LL_DEBUG=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CARES_STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LL_DEBUG=1;LL_WINDOWS=1;NOMINMAX;UNICODE;_UNICODE;WINVER=0x0600;_WIN32_WINNT=0x0600;ENABLE_CLASSIC_CLOUDS=1;LL_USE_TCMALLOC=1;CARES_STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llimage;C:\Users\stephen\Desktop\singularity\singularity\indra\llmath;C:\Users\stephen\Desktop\singularity\singularity\indra\llmessage;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\ares;C:\Users\stephen\Desktop\singularity\singularity\indra\aistatemachine;C:\Users\stephen\Desktop\singularity\singularity\indra\llrender;\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llwindow;C:\Users\stephen\Desktop\singularity\singularity\indra\llvfs;C:\Users\stephen\Desktop\singularity\singularity\indra\llxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\stephen\Desktop\singularity\singularity\indra\cwdebug;C:\Users\stephen\Desktop\singularity\singularity\indra\llcommon;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\apr-1;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llimage;C:\Users\stephen\Desktop\singularity\singularity\indra\llmath;C:\Users\stephen\Desktop\singularity\singularity\indra\llmessage;C:\Users\stephen\Desktop\singularity\singularity\build-vc140\packages\include\ares;C:\Users\stephen\Desktop\singularity\singularity\indra\aistatemachine;C:\Users\stephen\Desktop\singularity\singularity\indra\llrender;\include;C:\Users\stephen\Desktop\singularity\singularity\indra\llwindow;C:\Users\stephen\Desktop\singularity\singularity\indra\llvfs;C:\Users\stephen\Desktop\singularity\singularity\indra\llxml;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/llui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/llui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/llui/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\llui\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLCommon.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\APR.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ZLIB.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLImage.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\JPEG.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PNG.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLMath.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLMessage.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CARes.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CURL.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenSSL.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\XmlRpcEpi.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\AIStateMachine.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLRender.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FreeType.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLWindow.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenGL.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLVFS.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLXML.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\llui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/llui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/llui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/llui/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\llui\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLCommon.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\APR.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ZLIB.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLImage.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\JPEG.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PNG.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLMath.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLMessage.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CARes.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CURL.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenSSL.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\XmlRpcEpi.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\AIStateMachine.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLRender.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FreeType.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLWindow.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenGL.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLVFS.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLXML.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\llui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/stephen/Desktop/singularity/singularity/indra/llui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/stephen/Desktop/singularity/singularity/indra -BC:/Users/stephen/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/stephen/Desktop/singularity/singularity/build-vc140/llui/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/stephen/Desktop/singularity/singularity/indra/llui/CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\llui\CMakeLists.txt;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLCommon.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\APR.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ZLIB.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLImage.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\JPEG.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PNG.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLMath.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLMessage.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CARes.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CURL.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenSSL.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\XmlRpcEpi.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\AIStateMachine.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLRender.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FreeType.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLWindow.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenGL.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLVFS.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLXML.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake;C:\Users\stephen\Desktop\singularity\singularity\indra\llui\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llui\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\ailist.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llaccordionctrl.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llaccordionctrltab.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llalertdialog.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llbutton.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llcallbackmap.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llcheckboxctrl.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llclipboard.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llcombobox.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llcontainerview.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llctrlselectioninterface.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lldraghandle.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lleditmenuhandler.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llfiltereditor.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llfloater.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llflyoutbutton.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llfocusmgr.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llfunctorregistry.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llhtmlhelp.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lliconctrl.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llkeywords.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lllayoutstack.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lllineeditor.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lllocalcliprect.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmemberlistener.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmenugl.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmodaldialog.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmultifloater.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmultislider.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmultisliderctrl.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llnotificationptr.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llnotifications.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llnotificationsutil.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llnotificationtemplate.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llpanel.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llprogressbar.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llradiogroup.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llresizebar.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llresizehandle.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llresmgr.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llrootview.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llsearcheditor.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrollbar.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrollcontainer.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrollingpanellist.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrolllistcell.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrolllistcolumn.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrolllistctrl.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrolllistitem.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llslider.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llsliderctrl.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llspinctrl.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llstatbar.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llstatgraph.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llstatview.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llstyle.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lltabcontainer.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lltextbox.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lltexteditor.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lltextparser.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lltrans.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llui.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluicolor.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluiconstants.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluictrl.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluictrlfactory.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluifwd.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluistring.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluixmltags.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llundo.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llurlaction.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llurlentry.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llurlmatch.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llurlregistry.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llview.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llviewborder.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llviewmodel.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llviewquery.h" />
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llxuiparser.h" />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llaccordionctrl.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llaccordionctrltab.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llalertdialog.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llbutton.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llcheckboxctrl.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llclipboard.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llcombobox.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llcontainerview.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llctrlselectioninterface.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lldraghandle.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lleditmenuhandler.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llfiltereditor.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llfloater.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llflyoutbutton.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llfocusmgr.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llfunctorregistry.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lliconctrl.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llkeywords.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lllayoutstack.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lllineeditor.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lllocalcliprect.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmenugl.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmodaldialog.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmultifloater.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmultislider.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llmultisliderctrl.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llnotifications.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llnotificationsutil.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llpanel.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llprogressbar.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llradiogroup.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llresizebar.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llresizehandle.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llresmgr.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llrootview.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrollbar.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrollcontainer.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrollingpanellist.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrolllistcell.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrolllistcolumn.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrolllistctrl.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llscrolllistitem.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llsearcheditor.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llslider.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llsliderctrl.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llspinctrl.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llstatbar.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llstatgraph.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llstatview.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llstyle.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lltabcontainer.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lltextbox.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lltexteditor.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lltextparser.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lltrans.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llui.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluicolor.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluictrl.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluictrlfactory.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\lluistring.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llundo.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llurlaction.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llurlentry.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llurlmatch.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llurlregistry.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llview.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llviewborder.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llviewmodel.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llviewquery.cpp"  />
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\llui\llxuiparser.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\ZERO_CHECK.vcxproj">
+      <Project>498626B5-1082-3613-A2C9-E5D73A97D665</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llcommon\llcommon.vcxproj">
+      <Project>3CAB0194-3A13-396D-95B8-C964E9EB7E33</Project>
+      <Name>llcommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llimage\llimage.vcxproj">
+      <Project>C313D124-7830-3AED-B19C-D996ABC654C3</Project>
+      <Name>llimage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llmath\llmath.vcxproj">
+      <Project>F30206FF-07BA-340E-A89D-77E1081E7776</Project>
+      <Name>llmath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llrender\llrender.vcxproj">
+      <Project>F4551669-005F-37B7-95BB-7DE97E529F3F</Project>
+      <Name>llrender</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llvfs\llvfs.vcxproj">
+      <Project>9ECB5770-C02A-3D31-9863-982EE7761033</Project>
+      <Name>llvfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llwindow\llwindow.vcxproj">
+      <Project>83F727EB-4338-3BBC-93E9-03C0BA407A08</Project>
+      <Name>llwindow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\stephen\Desktop\singularity\singularity\build-vc140\llxml\llxml.vcxproj">
+      <Project>FF5C3BFF-CE11-3BD2-A7F6-87925421472F</Project>
+      <Name>llxml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

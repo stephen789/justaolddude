@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\cmake_dummy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\00-Common.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\AIStateMachine.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\APR.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Audio.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\BasicPluginBase.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Boost.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\BuildVersion.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CARes.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CEFPlugin.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CMakeCopyIfDifferent.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CURL.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Colladadom.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ConfigurePkgConfig.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Copy3rdPartyLibs.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Cwdebug.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\DBusGlib.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\DeploySharedLibs.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\EXPAT.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ExamplePlugin.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FMODSTUDIO.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAPR.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindAutobuild.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindCARes.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindColladadom.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindGLOD.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindGoogleBreakpad.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindGooglePerfTools.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindHunSpell.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindJsonCpp.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindNDOF.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindOpenJPEG.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindTut.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FindXmlRpcEpi.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\FreeType.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GLOD.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GStreamer010Plugin.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Glui.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Glut.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GoogleBreakpad.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\GooglePerfTools.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Hunspell.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\JPEG.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\JsonCpp.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLAddBuildTest.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLAppearance.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLAudio.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLCharacter.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLCommon.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLImage.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLImageJ2COJ.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLInventory.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLMath.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLMessage.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLPhysicsExtensions.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLPlugin.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLPrimitive.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLSharedLibs.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLRender.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLUI.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLVFS.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLWindow.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LLXML.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\LScript.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Linking.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\MediaPluginBase.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\NDOF.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\NVAPI.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OPENAL.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenGL.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenJPEG.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\OpenSSL.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PNG.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PluginAPI.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Prebuilt.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\PulseAudio.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Python.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\QuickTimePlugin.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\RunBuildTest.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\StateMachine.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\TemplateCheck.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Tut.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\UI.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\UnixInstall.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\Variables.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ViewerMiscLibs.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\WinManifest.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\XmlRpcEpi.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\ZLIB.cmake">
+      <Filter>Shared Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\stephen\Desktop\singularity\singularity\indra\CMakeLists.txt">
+      <Filter>Master Rules</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\stephen\Desktop\singularity\singularity\indra\cmake\CMakeLists.txt">
+      <Filter>Shared Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6C55EE4A-F815-33E5-B1C2-6D539E7E9973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Rules">
+      <UniqueIdentifier>{F1FAD176-5356-34EC-B1B8-2D0C62B1D440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Master Rules">
+      <UniqueIdentifier>{91DC2332-4D5C-3B39-82AD-DBD4A8EBD031}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,54 @@
+Copyright (c) 2010-2016, Singularity Viewer Team
+
+apr_suite: 1.5.2
+Copyright © 2012 The Apache Software Foundation, Licensed under the Apache License, Version 2.0.
+ares: 1.10.0
+Copyright 1998 by the Massachusetts Institute of Technology.
+boost: 1.60.0
+(see individual source files)
+colladadom: 2.3
+Copyright 2006 Sony Computer Entertainment Inc.
+curl: 7.48.0
+Copyright (c) 1996 - 2016, Daniel Stenberg, (daniel@haxx.se).
+expat: 2.1.1
+Copyright (c) 1998, 1999, 2000 Thai Open Source Software Center Ltd and Clark Cooper - Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006 Expat maintainers.
+fmodstudio: 1.08.04
+FMOD Studio, copyright © Firelight Technologies Pty, Ltd., 1994-2015.
+freetype: 2.6.3
+Copyright 2006-2016 by David Turner, Robert Wilhelm, and Werner Lemberg.
+glext: 20150325
+Copyright (c) 2013-2014 The Khronos Group Inc.
+glod: 1.0pre4
+Copyright (C) 2003-04 Jonathan Cohen, Nat Duca, Chris Niski, Johns Hopkins University and David Luebke, Brenden Schubert, University of Virginia. All rights reserved.
+google_breakpad: 9e60a27
+Copyright (c) 2006, Google Inc.
+gperftools: 2.1
+Copyright (c) 2005, Google Inc.
+jpeglib: 1.4.2
+Copyright (C) 1991-2012, Thomas G. Lane, Guido Vollbeding.
+jsoncpp: 1.6.5
+Copyright (c) 2007-2010 by Baptiste Lepilleur
+libhunspell: 1.3.3
+See hunspell.txt
+libndofdev: 0.1
+Copyright (c) 2007, 3Dconnexion, Inc. - All rights reserved.
+libpng: 1.6.21
+Copyright (c) 2004, 2006-2016 Glenn Randers-Pehrson
+libxml2: 2.9.3
+Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.
+llceflib: 3.2526.1364.gf6bf57b
+Copyright (c) 2014-2015, Linden Research, Inc.
+ogg_vorbis: 1.3.2-1.3.5
+Copyright (c) 2002, Xiph.org Foundation
+openssl: 1.0.2g
+Copyright (c) 1998-2016 The OpenSSL Project.  All rights reserved; Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+slvoice: 4.6.0017.21209.298329
+2010 Vivox, including audio coding using Polycom¨ Siren14TM (ITU-T Rec. G.722.1 Annex C)
+tut: 2008.11.30
+Copyright 2002-2006 Vladimir Dyuzhev, Copyright 2007 Denis Kononenko, Copyright 2008-2009 Michał Rzechonek
+vcredist: 14.0.23918.0
+Copyright (c) Microsoft Corporation. All rights reserved.
+xmlrpc-epi: 0.54.2
+Copyright: (C) 2000 Epinions, Inc.
+zlib: 1.2.8
+Copyright (C) 1995-2013 Jean-loup Gailly and Mark Adler
